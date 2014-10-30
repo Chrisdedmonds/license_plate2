@@ -1,4 +1,5 @@
 LicensePlate2::Application.routes.draw do
+  get "/user" => "user#show", as: 'user'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
